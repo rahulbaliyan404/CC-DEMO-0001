@@ -8,5 +8,4 @@ public class Demo1Test {
 	public void getData() {
 		System.out.println(" Junit Testing class.");
 	}
-
 }
