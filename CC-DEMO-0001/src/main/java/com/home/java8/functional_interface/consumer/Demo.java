@@ -7,6 +7,7 @@ import java.util.function.Consumer;
 public class Demo {
 	
 	public void printData() {
+		
 		List<Integer> list = Arrays.asList(10, 15, 20, 25, 30);
 		Consumer<Integer> consumer = System.out::println;
 		list.forEach(consumer);
